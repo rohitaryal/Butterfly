@@ -35,5 +35,9 @@ python3 butterfly.py
 
 **Note**: All branches plus un-mentioned ones are present in [all_branch.csv](./csv/all_branch.csv)
 
+CSV is distributed as follows and in case of empty/unavailable the are left blank:<br><br>
+`    NAME    |    BRANCH    |    IMAGE    |    LINKS   |    EMAIL    `<br><br>
+Links are maybe multivalued attribute and are seperated by space.
+
 ---
 `Butterfly=Scrape`

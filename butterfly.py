@@ -163,11 +163,12 @@ class Butterfly:
                 print("[!] Some error occured inside", "get_faculty_details")
                 print("  \_ Don't worry program won't crash")
 
-save_file="results.csv"
-parse=Butterfly(save_file)
-urls=parse.get_branch_links()
 
-#spread operator
-parse.get_faculty_details(*urls);
-
-print(f"[+] Saved to {save_file}:)")
+if __name__ == "__main__":
+    save_file="results.csv"
+    parse=Butterfly(save_file)
+    urls=parse.get_branch_links()
+    
+    #spread operator
+    parse.get_faculty_details(*urls);
+    print(f"[+] Saved to {save_file}:)")
